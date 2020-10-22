@@ -6,6 +6,14 @@
     <language>pl</language>
      <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Strategie omnichannel – wspólna przyszłość e-commerce i sprzedaży tradycyjnej</title>
+    <link>https://www.prestashop.com/pl/blog/strategie-omnichannel-e-commerce</link>
+    <description>Pomimo że w branży handlowej regularnie mówi się, że sprzedaż online zastąpi tę tradycyjną, to ostatecznie oba te kanały sprzedaży – jakże od siebie różne – wciąż współistnieją i ze sobą konkurują.</description>
+     <pubDate>Wed, 21 Oct 2020 16:26:56 +0200</pubDate>
+ <dc:creator>luca mastroianni</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/strategie-omnichannel-e-commerce</guid>
+  </item>
+  <item>
     <title>Ważne etapy budowania firmy:  aby osiągnąć sukces, musisz się rozwijać</title>
     <link>https://www.prestashop.com/pl/blog/etapy-budowania-firmy</link>
     <description>Każdy biznes ma swój cykl życia. Pierwszy etap to wyłącznie pomysł – produkt wyobraźni, moment olśnienia w głowie przedsiębiorcy.</description>
@@ -76,14 +84,6 @@
      <pubDate>Thu, 17 Sep 2020 16:55:33 +0200</pubDate>
  <dc:creator>luca mastroianni</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/pl/blog/botland-prestashop</guid>
-  </item>
-  <item>
-    <title>Ważne etapy budowania firmy:  aby osiągnąć sukces, musisz się rozwijać</title>
-    <link>https://www.prestashop.com/pl/blog/sukces-musisz-rozwijac</link>
-    <description>Każdy biznes ma swój cykl życia. Pierwszy etap to wyłącznie pomysł – produkt wyobraźni, moment olśnienia w głowie przedsiębiorcy.</description>
-     <pubDate>Mon, 14 Sep 2020 14:24:31 +0200</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/sukces-musisz-rozwijac</guid>
   </item>
   </channel>
 </rss>
