@@ -6,6 +6,14 @@
     <language>pl</language>
      <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Jak zostać ekspertem od e-commerce?</title>
+    <link>https://www.prestashop.com/pl/blog/jak-ekspertem-e-commerce</link>
+    <description>Już ponad 300 tys. sklepów internetowych korzysta z platformy PrestaShop.</description>
+     <pubDate>Fri, 23 Oct 2020 17:49:28 +0200</pubDate>
+ <dc:creator>luca mastroianni</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/jak-ekspertem-e-commerce</guid>
+  </item>
+  <item>
     <title>Strategie omnichannel – wspólna przyszłość e-commerce i sprzedaży tradycyjnej</title>
     <link>https://www.prestashop.com/pl/blog/strategie-omnichannel-e-commerce</link>
     <description>Pomimo że w branży handlowej regularnie mówi się, że sprzedaż online zastąpi tę tradycyjną, to ostatecznie oba te kanały sprzedaży – jakże od siebie różne – wciąż współistnieją i ze sobą konkurują.</description>
@@ -76,14 +84,6 @@
      <pubDate>Thu, 24 Sep 2020 16:18:42 +0200</pubDate>
  <dc:creator>luca mastroianni</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/pl/blog/przepisy-dotyczace-e-commerce</guid>
-  </item>
-  <item>
-    <title>Botland – biznes z pasją wspierany od 10 lat przez PrestaShop </title>
-    <link>https://www.prestashop.com/pl/blog/botland-prestashop</link>
-    <description>Botland to największy w Polsce internetowy sklep dla pasjonatów robotyki i elektroniki.</description>
-     <pubDate>Thu, 17 Sep 2020 16:55:33 +0200</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/botland-prestashop</guid>
   </item>
   </channel>
 </rss>
