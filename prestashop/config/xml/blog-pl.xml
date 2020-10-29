@@ -6,6 +6,14 @@
     <language>pl</language>
      <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Moduły PrestaShop – aby zapewnić wysoką sprzedaż na Black Friday i w okresie bożonarodzeniowym</title>
+    <link>https://www.prestashop.com/pl/blog/modules-black-friday-2020</link>
+    <description>Oprócz sprzedaży świątecznej fenomen Black Friday, przypadającego na około miesiąc przed Bożym Narodzeniem, jest coraz w</description>
+     <pubDate>Sun, 25 Oct 2020 15:44:00 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/modules-black-friday-2020</guid>
+  </item>
+  <item>
     <title>Jak zostać ekspertem od e-commerce?</title>
     <link>https://www.prestashop.com/pl/blog/jak-ekspertem-e-commerce</link>
     <description>Już ponad 300 tys. sklepów internetowych korzysta z platformy PrestaShop.</description>
@@ -76,14 +84,6 @@
      <pubDate>Fri, 25 Sep 2020 16:54:38 +0200</pubDate>
  <dc:creator>PrestaShop Team</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/pl/blog/psd2-obowiazkowe-uwierzytelnienie</guid>
-  </item>
-  <item>
-    <title>Poradnik: Przepisy dotyczące e-commerce w Unii Europejskiej</title>
-    <link>https://www.prestashop.com/pl/blog/przepisy-dotyczace-e-commerce</link>
-    <description>Prowadząc sklep ze sprzedażą międzynarodową w Europie, warto znać przepisy obowiązujące w Unii Europejskiej. Poniżej wymieniliśmy najważniejsze kwestie, o których należy pamiętać.</description>
-     <pubDate>Thu, 24 Sep 2020 16:18:42 +0200</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/przepisy-dotyczace-e-commerce</guid>
   </item>
   </channel>
 </rss>
