@@ -6,6 +6,7 @@ Folder *images* warto wrzucić do folderu prestashop zanim zaczniemy importować
 ## WAŻNE!!
 Pliki generowałem z myślą o dockerze, gdyż tak mogłem zdecydowanie przyspieszyć i ułatwić sobie pracę. Z tego też powodu kolumny *"Image alt texts"* w pliku *combinations.csv*
 oraz *"Image URLs"* w pliku *products.csv* mogą zawierać nieprawidłowe linki. Jeśli się nie mylę nasz sklep znajduje się pod adresem localhost/prestashop, dlatego może być wymagane 
-podmienienie łańcuchów "http://localhost/images/" na "http://localhost/prestashop/images/". Zamiana wszystkich wystąpień nie powinna spowodować problemów z resztą kolumn.
+podmienienie łańcuchów "http://localhost/images/" na "http://localhost/prestashop/images/". Zamiana wszystkich wystąpień nie powinna spowodować problemów z resztą kolumn. <br>
+Ewentualnym rozwiązaniem może być również umieszczenie katalogu *images* obok katalogu prestashop w /var/www/html/ .
 
 #### Jeżeli macie z czymś problem to informujcie.
