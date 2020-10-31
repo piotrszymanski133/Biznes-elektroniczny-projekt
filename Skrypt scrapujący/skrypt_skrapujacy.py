@@ -70,9 +70,6 @@ if response.status_code == 200:
             print(script_id, script_parent, script_title, script_url, script_hasChildren)
 
             desenio_c_url.append(script_url)
-            # c_desc nie dodano - należy dodano przy scrapowaniu pojedynczych kategorii
-            # c_meta_desc - to samo ^
-            # c_meta_keywords - to samo ^
 
 ##########################################################
 # POBIERANIE LINKÓW I ID PRODUKTÓW ZGODNIE Z KATEGORIAMI #
@@ -136,10 +133,6 @@ for url in desenio_c_url:
             p_price_tax_excluded.append(round(float(product.get("data-price")) / 1.23, 2))
     #break   # do wykomentowania po debugu
 driver.close()
-# list_c = [c_id, c_active, c_name, c_parent, c_root, c_desc, c_meta_title, c_meta_keywords, c_meta_desc, c_url_rewritten, c_img_url]
-# list_c_headers = ["Category ID", "Active (0/1)", "Name *", "Parent category", "Root category (0/1)", "Description", "Meta title", "Meta keywords", "Meta description", "URL rewritten", "Image URL"]
-# df_c = generate_dataframe_from_lists(list_c, list_c_headers)
-# df_c.to_csv("categories.csv")
 
 
 ########################################
@@ -250,11 +243,6 @@ for url in desenio_p_url:
         except:
             print(p_id[n] + " ERROR: can't download image")
             p_id[n] = "ERROR"
-
-        # tworzenie kombinacji
-
-            # wartość rozmiaru, (supplier_ref zalezny od rozmiaru?), wplyw na cene, ilość tego typu
-            # wpływ na wagę, czy domyślna kombinacja?,
 
             # wyciąganie rozmiarów i odpowiadających im cen
         sizes, prices = [], []
