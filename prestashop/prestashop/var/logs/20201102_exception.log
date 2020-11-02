@@ -1,0 +1,6 @@
+*ERROR* 	v1.7.6.8	2020/11/02 - 17:06:15: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.6.8	2020/11/02 - 18:46:02: Product with id 15 is not a pack at line 252 in file classes/Pack.php
+*ERROR* 	v1.7.6.8	2020/11/02 - 18:46:19: Product with id 15 is not a pack at line 252 in file classes/Pack.php
+*ERROR* 	v1.7.6.8	2020/11/02 - 18:47:32: Product with id 15 is not a pack at line 252 in file classes/Pack.php
+*ERROR* 	v1.7.6.8	2020/11/02 - 18:47:35: Product with id 15 is not a pack at line 252 in file classes/Pack.php
+*ERROR* 	v1.7.6.8	2020/11/02 - 18:48:14: Product with id 15 is not a pack at line 252 in file classes/Pack.php
