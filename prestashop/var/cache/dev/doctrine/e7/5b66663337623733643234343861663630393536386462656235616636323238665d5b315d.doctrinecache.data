@@ -1,0 +1,18 @@
+1604352720
+s:3409:"HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 02 Nov 2020 21:27:00 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+X-Backend-Server: vm2731.jn-hebergement.com
+
+{"modules":[{"id":"22318","name":"ps_emailsubscription","displayName":"Newsletter subscription","categoryName":"Newsletter & SMS","description":"Pozosta\u0144 w kontakcie z klientami, dodaj\u0105c formularz subskrypcji newslettera w Twoim sklepie","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/pl\/newsletter-sms\/22318-newsletter-subscription.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-PL&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/22318.jpg","fullDescription":"Pozosta\u0144 w kontakcie z klientami, dodaj\u0105c formularz subskrypcji newslettera w Twoim sklepie.","additionalDescription":"U\u017cyj tego modu\u0142u natywnego, aby:\r\n<ul>\r\n\t<li><strong>Zarz\u0105dza\u0107 swoj\u0105 baz\u0105 klient&oacute;w: <\/strong>gromad\u017a dane dotycz\u0105ce subskrybent&oacute;w w jednym miejscu z adresem e-mail, g\u0142&oacute;wnymi informacjami itd.<\/li>\r\n\t<li><strong>Tw&oacute;rz specjalne oferty: <\/strong>zaoferuj swoim subskrybentom voucher, \u017ceby stymulowa\u0107 zakupy w Twoim sklepie.<\/li>\r\n<\/ul>\r\n","features":"Spersonalizuj proces subskrypcji newslettera: zastosuj e-mail z weryfikacj\u0105 lub potwierdzeniem po dokonaniu subskrypcji, stw&oacute;rz kod vouchera, \u017ceby Twoi ciekawi klienci mieli ochot\u0119 na zakup Twoich produkt&oacute;w&hellip; eksploruj wszystkie mo\u017cliwo\u015bci!<br \/>\r\n<br \/>\r\nPami\u0119taj, \u017ce konieczna mo\u017ce by\u0107 uprzednia konfiguracja e-maili na stronie &bdquo;Ustawienia zaawansowane \/ E-mail&rdquo; w back office.<br \/>\r\n<br \/>\r\nMasz te\u017c mo\u017cliwo\u015b\u0107 wyeksportowania tych danych jako pliku CSV.","customer_benefits":"","demo_video":"","version":"2.6.0","last_update":"2020-11-02 13:05:48","compatibility":{"from":"1.7.1.0","to":"1.7.7.0"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias1.prestastore.com\/1294380-pprod\/newsletter-subscription.jpg","big":"https:\/\/medias1.prestastore.com\/1294380-pbig\/newsletter-subscription.jpg"},"pictures":{"small":["https:\/\/medias2.prestastore.com\/1294381-pprod\/newsletter-subscription.jpg","https:\/\/medias2.prestastore.com\/1294382-pprod\/newsletter-subscription.jpg"],"big":["https:\/\/medias2.prestastore.com\/1294381-pbig\/newsletter-subscription.jpg","https:\/\/medias2.prestastore.com\/1294382-pbig\/newsletter-subscription.jpg"]}}]}";
