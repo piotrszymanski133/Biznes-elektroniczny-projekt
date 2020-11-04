@@ -1,0 +1,18 @@
+1604530127
+s:2913:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 04 Nov 2020 22:43:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+X-Backend-Server: vm2730.jn-hebergement.com
+
+{"modules":[{"id":"22321","name":"ps_mainmenu","displayName":"Main menu","categoryName":"Menu","description":"Spraw, \u017ce klienci z \u0142atwo\u015bci\u0105 b\u0119d\u0105 przegl\u0105dali ofert\u0119 Twojego sklepu, zmie\u0144 odpowiedni link w pozycj\u0119 w menu","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/pl\/menu\/22321-main-menu.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-PL&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/22321.jpg","fullDescription":"Spraw, \u017ce klienci z \u0142atwo\u015bci\u0105 b\u0119d\u0105 przegl\u0105dali ofert\u0119 Twojego sklepu, zmie\u0144 odpowiedni link w pozycj\u0119 w menu.","additionalDescription":"U\u017cyj tego modu\u0142u natywnego, aby:\r\n<ul>\r\n\t<li><strong>U\u0142atwi\u0107 nawigacj\u0119 w Twoim sklepie: <\/strong>z my\u015bl\u0105 o Twoich klientach upro\u015b\u0107 przegl\u0105danie sklepu i \u015bled\u017a jego menu.<\/li>\r\n\t<li><strong>Zwi\u0119kszy\u0107 swoj\u0105 widoczno\u015b\u0107: <\/strong>wybierz tre\u015b\u0107 i s\u0142owa kluczowe, kt&oacute;re chcesz wyeksponowa\u0107, i skup si\u0119 na swoim SEO.<\/li>\r\n<\/ul>\r\n","features":"Wybierz wpis, kt&oacute;ry chcesz wy\u015bwietla\u0107 w menu swojej strony startowej, wyznaczy on architektur\u0119 Twojego sklepu, a wi\u0119c pomo\u017ce odwiedzaj\u0105cym porusza\u0107 si\u0119 w sklepie.","customer_benefits":"","demo_video":"","version":"2.2.0","last_update":"2020-11-04 13:06:07","compatibility":{"from":"1.7.1.0","to":"1.7.7.0"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias2.prestastore.com\/1293758-pprod\/main-menu.jpg","big":"https:\/\/medias2.prestastore.com\/1293758-pbig\/main-menu.jpg"},"pictures":{"small":["https:\/\/medias1.prestastore.com\/1293759-pprod\/main-menu.jpg"],"big":["https:\/\/medias1.prestastore.com\/1293759-pbig\/main-menu.jpg"]}}]}";

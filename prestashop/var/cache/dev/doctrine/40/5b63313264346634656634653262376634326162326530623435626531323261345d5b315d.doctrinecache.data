@@ -1,0 +1,18 @@
+1604530386
+s:3317:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 04 Nov 2020 22:48:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+X-Backend-Server: vm2731.jn-hebergement.com
+
+{"modules":[{"id":"23870","name":"ps_shoppingcart","displayName":"Shopping cart","categoryName":"Bloki, Zak\u0142adki & Banery","description":"Wy\u015bwietl ikon\u0119 koszyka na stronach i liczb\u0119 produkt&oacute;w w koszyku","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/pl\/bloki-zakladki-banery\/23870-shopping-cart.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-PL&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/23870.jpg","fullDescription":"Wy\u015bwietl ikon\u0119 koszyka na stronach i liczb\u0119 produkt&oacute;w w koszyku.","additionalDescription":"U\u017cyj tego modu\u0142u natywnego, aby:\r\n<ul>\r\n\t<li><strong>Przyci\u0105gn\u0105\u0107 uwag\u0119 swoich klient&oacute;w: <\/strong>mo\u017cesz pozwoli\u0107 im rzuci\u0107 okiem na produkty, kt&oacute;rych poszukuj\u0105, podczas gdy przegl\u0105daj\u0105 Tw&oacute;j sklep.<\/li>\r\n\t<li><strong>Osi\u0105ga\u0107 sukcesy w sprzeda\u017cy: <\/strong>klient, kt&oacute;ry czuje, \u017ce mu towarzyszysz, b\u0119dzie bardziej sk\u0142onny wr&oacute;ci\u0107 na zakupy w Twoim sklepie.<\/li>\r\n<\/ul>\r\n","features":"Jest to do\u015b\u0107 \u0142atwy do skonfigurowania modu\u0142, wystarczy zaznaczy\u0107, czy chcesz zastosowa\u0107 tryb Ajax do koszyka, czy nie. Sugerujemy w\u0142\u0105czenie tego modu\u0142u, poniewa\u017c umo\u017cliwia automatyczn\u0105 aktualizacj\u0119.<br \/>\r\n<br \/>\r\nOznacza to, \u017ce gdy tylko odwiedzaj\u0105cy wybierze produkt, koszyk to zasygnalizuje; liczba kupionych produkt&oacute;w b\u0119dzie automatycznie wskazana obok ikony, na nag\u0142&oacute;wku Twojego sklepu.","customer_benefits":"","demo_video":"","version":"2.0.3","last_update":"2020-11-03 13:06:16","compatibility":{"from":"1.7.1.0","to":"1.7.7.0"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias2.prestastore.com\/1293819-pprod\/shopping-cart.jpg","big":"https:\/\/medias2.prestastore.com\/1293819-pbig\/shopping-cart.jpg"},"pictures":{"small":["https:\/\/medias1.prestastore.com\/838733-pprod\/shopping-cart.jpg","https:\/\/medias1.prestastore.com\/1293818-pprod\/shopping-cart.jpg"],"big":["https:\/\/medias1.prestastore.com\/838733-pbig\/shopping-cart.jpg","https:\/\/medias1.prestastore.com\/1293818-pbig\/shopping-cart.jpg"]}}]}";
