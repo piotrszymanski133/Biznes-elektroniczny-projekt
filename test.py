@@ -18,7 +18,7 @@ driver.find_element_by_xpath("//div[@class='no-account']").click()
 driver.find_element_by_xpath("//input[@name='id_gender' and @value='1']").click()
 driver.find_element_by_xpath("//input[@name='firstname']").send_keys("Jan")
 driver.find_element_by_xpath("//input[@name='lastname']").send_keys("Kowalski")
-driver.find_element_by_xpath("//input[@name='email']").send_keys("jankowalski27@poczta.pl")
+driver.find_element_by_xpath("//input[@name='email']").send_keys("jankowalski127@poczta.pl")
 driver.find_element_by_xpath("//input[@name='password']").send_keys("123456")
 driver.find_element_by_xpath("//input[@name='birthday']").send_keys("1970-01-01")
 driver.find_element_by_xpath("//input[@name='psgdpr']").click()
@@ -39,14 +39,17 @@ for i in range(2):
 
     numbers = random.sample(range(0, 11), 5)
     for j in range(0, 5):
-
         #Losowanie produktu
-        products = driver.find_elements_by_css_selector("a[class='thumbnail product-thumbnail']")
+        while(True):
+            try:
+                products = driver.find_elements_by_css_selector("a[class='thumbnail product-thumbnail']")
+                products[numbers[j]].click()
+                break
+            except:
+                pass
         
 
         #Losowanie ilości i dodawanie do koszyka
-        selected = products[numbers[j]]
-        driver.execute_script("arguments[0].click();", selected)
         wait.until(EC.presence_of_element_located((By.XPATH, "//select[@id='group_1']")))
         driver.find_element_by_xpath("//select[@id='group_1']").click()
         sizes = driver.find_elements_by_tag_name('option')
@@ -67,7 +70,7 @@ for i in range(2):
         if i == 0:
             driver.find_element_by_xpath("//a[@class='next js-search-link']").click()
         else:
-            if j == 1 or j == 3:
+            if j == 1:
                 driver.find_element_by_xpath("//a[@class='next js-search-link']").click()
 
 #Przejscie do koszyka
@@ -86,8 +89,11 @@ driver.find_element_by_xpath("//input[@name='city']").send_keys("Malbork")
 driver.find_element_by_xpath("//button[@name='confirm-addresses']").click()
 
 #Losowanie przewoznika
-delivery = random.randint(4, 5)
-driver.find_element_by_xpath("//input[@id='delivery_option_" + str(delivery) + "']").click()
+delivery = random.randint(0, 1)
+deliveries = driver.find_elements_by_css_selector("div[class='col-xs-3'")
+deliveries[delivery].click()
+#wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@id='delivery_option_" + str(delivery) + "']")))
+#driver.find_element_by_xpath("//input[@id='delivery_option_" + str(delivery) + "']").click()
 driver.find_element_by_xpath("//button[@name='confirmDeliveryOption']").click()
 
 #Wybranie platnosci i zamowienie
@@ -98,3 +104,6 @@ driver.find_element_by_xpath("//button[@class='btn btn-primary center-block']").
 #Sprawdzenie statusu zamowienia
 driver.find_element_by_xpath("//span[@class='hidden-sm-down']").click()
 driver.find_element_by_xpath("//a[@id='history-link']").click()
+
+#wejscie w szczegoly
+driver.find_element_by_css_selector("a[data-link-action='view-order-details'").click()
