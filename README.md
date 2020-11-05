@@ -1,6 +1,6 @@
 # jak importowac
 1. pobierz pliki csv
-2. pobierz folder images i umieść go w folderze prestashop
+2. pobierz folder images i umieść go w folderze prestashop. Wypakuj zdjęcia do folderu images.
 3. importuj kategorie (TAK, NIE, **TAK**, NIE)
 4. importuj produkty (TAK, NIE, NIE, **NIE**, NIE)
 5. importuj kombinacje (TAK, **NIE**, NIE)
