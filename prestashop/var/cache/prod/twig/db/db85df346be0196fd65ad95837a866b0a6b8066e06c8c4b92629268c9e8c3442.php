@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* __string_template__784dd4eeffc609d1e49ac2bc53866eca71a8eb197af7def2969f9ec1d1d791f3 */
-class __TwigTemplate_ef8050f2956d2755807f0e5a62b0e04d7108817b6446d383ffdc573d456a9b1b extends \Twig\Template
+/* __string_template__969a8d050c1b1823058eade3c162d4c9f02d761f79130691beeefde3af28863a */
+class __TwigTemplate_b776ccab2f5afec11926a48cbfb0945dab3278dff4a00dd2ba433752d6826266 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -47,10 +47,10 @@ class __TwigTemplate_ef8050f2956d2755807f0e5a62b0e04d7108817b6446d383ffdc573d456
 <link rel=\"icon\" type=\"image/x-icon\" href=\"/prestashop/img/favicon.ico\" />
 <link rel=\"apple-touch-icon\" href=\"/prestashop/img/app_icon.png\" />
 
-<title>Moduły • BEProjekt</title>
+<title>Importuj • BEProjekt</title>
 
   <script type=\"text/javascript\">
-    var help_class_name = 'AdminModulesManage';
+    var help_class_name = 'AdminImport';
     var iso_user = 'pl';
     var lang_is_rtl = '0';
     var full_language_code = 'pl';
@@ -68,17 +68,17 @@ class __TwigTemplate_ef8050f2956d2755807f0e5a62b0e04d7108817b6446d383ffdc573d456
     var customer_name_msg = 'Nazwa klienta: ';
     var new_msg = 'Nowa wiadomość pojawiła się w Twoim sklepie.';
     var see_msg = 'Przeczytaj tą wiadomość';
-    var token = 'd9ad88188b99dd439b7ae2c95b6df103';
+    var token = 'e373b47e80c1d4e28dea69a838c36da0';
     var token_admin_orders = 'f5e7e1cfd35986d003a24f084a67af01';
     var token_admin_customers = '313d12fccdca1c3dfcb02a67f4fb6e2f';
     var token_admin_customer_threads = '65ebb5e3511b4988cc788f534627ca70';
-    var currentIndex = 'index.php?controller=AdminModulesManage';
+    var currentIndex = 'index.php?controller=AdminImport';
     var employee_token = 'e1391205178cbac5dece9b55ca1b72fa';
     var choose_language_translate = 'Wybierz język';
     var default_language = '1';
-    var admin_modules_link = '/prestashop/admin026bqejd0/index.php/improve/modules/catalog/recommended?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg';
-    var admin_notification_get_link = '/prestashop/admin026bqejd0/index.php/common/notifications?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg';
-    var admin_notification_push_link = '/prestashop/admin026bqejd0/index.php/common/notifications/ack?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg';
+    var admin_modules_link = '/prestashop/admin026bqejd0/index.php/improve/modules/catalog/recommended?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA';
+    var admin_notification_get_link = '/prestashop/admin026bqejd0/index.php/common/notifications?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA';
+    var admin_notification_push_link = '/prestashop/admin026bqejd0/index.php/common/notifications/ack?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA';
     var tab_modules_list = '';
     var update_success_msg = 'Aktualizacja powiodła się';
     var errorLogin = 'PrestaShop nie mógł zalogować się do Dodatków, sprawdź swoje uprawnienia i połączenie internetowe.';
@@ -91,11 +91,12 @@ class __TwigTemplate_ef8050f2956d2755807f0e5a62b0e04d7108817b6446d383ffdc573d456
       <link href=\"/prestashop/admin026bqejd0/themes/default/css/vendor/nv.d3.css\" rel=\"stylesheet\" type=\"text/css\"/>
       <link href=\"/prestashop/modules/gamification/views/css/gamification.css\" rel=\"stylesheet\" type=\"text/css\"/>
       <link href=\"/prestashop/js/jquery/plugins/fancybox/jquery.fancybox.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/prestashop/modules/ps_mbo/views/css/recommended-modules.css\" rel=\"stylesheet\" type=\"text/css\"/>
   
   <script type=\"text/javascript\">
 var baseAdminDir = \"\\/prestashop\\/admin026bqejd0\\/\";
 var baseDir = \"\\/prestashop\\/\";
-var changeFormLanguageUrl = \"\\/prestashop\\/admin026bqejd0\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\";
+var changeFormLanguageUrl = \"\\/prestashop\\/admin026bqejd0\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\";
 var currency = {\"iso_code\":\"PLN\",\"sign\":\"z\\u0142\",\"name\":\"Z\\u0142oty polski\",\"format\":null};
 var currency_specifications = {\"symbol\":[\",\",\"\\u00a0\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"currencyCode\":\"PLN\",\"currencySymbol\":\"z\\u0142\",\"positivePattern\":\"#,##0.00\\u00a0\\u00a4\",\"negativePattern\":\"-#,##0.00\\u00a0\\u00a4\",\"maxFractionDigits\":2,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
 var host_mode = false;
@@ -118,13 +119,14 @@ var show_new_orders = \"1\";
 <script type=\"text/javascript\" src=\"/prestashop/modules/gamification/views/js/gamification_bt.js\"></script>
 <script type=\"text/javascript\" src=\"/prestashop/js/jquery/plugins/fancybox/jquery.fancybox.js\"></script>
 <script type=\"text/javascript\" src=\"/prestashop/modules/ps_mbo/views/js/recommended-modules.js?v=2.0.1\"></script>
+<script type=\"text/javascript\" src=\"/prestashop/admin026bqejd0/themes/default/js/bundle/module/module_card.js?v=1.7.6.8\"></script>
 
   <script>
   if (undefined !== ps_faviconnotificationbo) {
     ps_faviconnotificationbo.initialize({
       backgroundColor: '#DF0067',
       textColor: '#FFFFFF',
-      notificationGetUrl: '/prestashop/admin026bqejd0/index.php/common/notifications?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg',
+      notificationGetUrl: '/prestashop/admin026bqejd0/index.php/common/notifications?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA',
       CHECKBOX_ORDER: 1,
       CHECKBOX_CUSTOMER: 1,
       CHECKBOX_MESSAGE: 1,
@@ -134,7 +136,7 @@ var show_new_orders = \"1\";
 </script>
 <script>
             var admin_gamification_ajax_url = \"https:\\/\\/localhost\\/prestashop\\/admin026bqejd0\\/index.php?controller=AdminGamification&token=0ff1b25bb3a11be172ed130e30b6f0ef\";
-            var current_id_tab = 45;
+            var current_id_tab = 108;
         </script>
 <script type=\"text/javascript\">
 \t(window.gaDevIds=window.gaDevIds||[]).push('d6YPbH');
@@ -143,7 +145,7 @@ var show_new_orders = \"1\";
 \tm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 \t})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-            ga('create', '251074681 ', 'auto');
+            ga('create', 'G-V9B3K4N493 ', 'auto');
                         ga('send', 'pageview');
     
     ga('require', 'ec');
@@ -158,12 +160,12 @@ var show_new_orders = \"1\";
 
 
 ";
-        // line 122
+        // line 124
         $this->displayBlock('stylesheets', $context, $blocks);
         $this->displayBlock('extra_stylesheets', $context, $blocks);
         echo "</head>
 
-<body class=\"lang-pl adminmodulesmanage\">
+<body class=\"lang-pl adminimport\">
 
   <header id=\"header\">
 
@@ -196,7 +198,7 @@ var show_new_orders = \"1\";
          href=\"https://localhost/prestashop/admin026bqejd0/index.php?controller=AdminStats&amp;module=statscheckup&amp;token=74c0cf6fe9c648af4b84e1c9fa344b34\"
                  data-item=\"Ocena katalogu\"
       >Ocena katalogu</a>
-          <a class=\"dropdown-item active\"
+          <a class=\"dropdown-item\"
          href=\"https://localhost/prestashop/admin026bqejd0/index.php/improve/modules/manage?token=92625d7e3754c346e41d0c4196b9d159\"
                  data-item=\"Zainstalowane moduły\"
       >Zainstalowane moduły</a>
@@ -208,17 +210,16 @@ var show_new_orders = \"1\";
           <a
         class=\"dropdown-item js-quick-link\"
         href=\"#\"
-        data-method=\"remove\"
-        data-quicklink-id=\"5\"
-        data-rand=\"146\"
-        data-icon=\"icon-AdminModulesSf\"
-        data-url=\"index.php/improve/modules/manage\"
+        data-rand=\"73\"
+        data-icon=\"icon-AdminAdvancedParameters\"
+        data-method=\"add\"
+        data-url=\"index.php/configure/advanced/import/?-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\"
         data-post-link=\"https://localhost/prestashop/admin026bqejd0/index.php?controller=AdminQuickAccesses&token=ff361ab76ee1377af88ea3b054ea13a6\"
         data-prompt-text=\"Proszę podać nazwę tego skrótu:\"
-        data-link=\"Moduły - Lista\"
+        data-link=\"Importuj - Lista\"
       >
-        <i class=\"material-icons\">remove_circle_outline</i>
-        Usuń z zakładki
+        <i class=\"material-icons\">add_circle</i>
+        Dodaj bieżącą stronę do zakładki
       </a>
         <a class=\"dropdown-item\" href=\"https://localhost/prestashop/admin026bqejd0/index.php?controller=AdminQuickAccesses&token=ff361ab76ee1377af88ea3b054ea13a6\">
       <i class=\"material-icons\">settings</i>
@@ -385,7 +386,7 @@ var show_new_orders = \"1\";
       
       <span class=\"employee_avatar\"><img class=\"avatar rounded-circle\" src=\"https://profile.prestashop.com/weronika.piotrowska.pl%40gmail.com.jpg\" /></span>
       <span class=\"employee_profile\">Witaj ponownie Weronika</span>
-      <a class=\"dropdown-item employee-link profile-link\" href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/employees/1/edit?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\">
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/employees/1/edit?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\">
       <i class=\"material-icons\">settings</i>
       Twój profil
     </a>
@@ -410,7 +411,7 @@ var show_new_orders = \"1\";
       </header>
 
   <nav class=\"nav-bar d-none d-md-block\">
-  <span class=\"menu-collapse\" data-toggle-url=\"/prestashop/admin026bqejd0/index.php/configure/advanced/employees/toggle-navigation?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/prestashop/admin026bqejd0/index.php/configure/advanced/employees/toggle-navigation?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\">
     <i class=\"material-icons\">chevron_left</i>
     <i class=\"material-icons\">chevron_left</i>
   </span>
@@ -463,7 +464,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/orders/invoices/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Faktury
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/orders/invoices/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Faktury
                               </a>
                             </li>
 
@@ -479,7 +480,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/orders/delivery-slips/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Druk wysyłki
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/orders/delivery-slips/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Druk wysyłki
                               </a>
                             </li>
 
@@ -498,7 +499,7 @@ var show_new_orders = \"1\";
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/products?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/products?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-store\">store</i>
                     <span>
                     Katalog
@@ -512,7 +513,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"10\" id=\"subtab-AdminProducts\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/products?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Produkty
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/products?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Produkty
                               </a>
                             </li>
 
@@ -520,7 +521,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"11\" id=\"subtab-AdminCategories\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/categories?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Kategorie
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/categories?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Kategorie
                               </a>
                             </li>
 
@@ -544,7 +545,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/brands/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Marki &amp; Dostawcy
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/catalog/brands/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Marki &amp; Dostawcy
                               </a>
                             </li>
 
@@ -568,7 +569,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/stocks/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Stocks
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/stocks/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Stocks
                               </a>
                             </li>
 
@@ -579,7 +580,7 @@ var show_new_orders = \"1\";
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/sell/customers/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/sell/customers/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-account_circle\">account_circle</i>
                     <span>
                     Klienci
@@ -593,7 +594,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/customers/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Klienci
+                              <a href=\"/prestashop/admin026bqejd0/index.php/sell/customers/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Klienci
                               </a>
                             </li>
 
@@ -669,30 +670,30 @@ var show_new_orders = \"1\";
                                   
                 
         
-          <li class=\"category-title -active\" data-submenu=\"42\" id=\"tab-IMPROVE\">
+          <li class=\"category-title \" data-submenu=\"42\" id=\"tab-IMPROVE\">
               <span class=\"title\">Ulepszenia</span>
           </li>
 
                           
                 
                                                 
-                                                    
-                <li class=\"link-levelone has_submenu -active open ul-open\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/manage?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                
+                <li class=\"link-levelone has_submenu\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/manage?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-extension\">extension</i>
                     <span>
                     Moduły
                     </span>
                                                 <i class=\"material-icons sub-tabs-arrow\">
-                                                                keyboard_arrow_up
+                                                                keyboard_arrow_down
                                                         </i>
                                         </a>
                                           <ul id=\"collapse-43\" class=\"submenu panel-collapse\">
                                                   
                             
                                                         
-                            <li class=\"link-leveltwo -active\" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/manage?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Module Manager
+                            <li class=\"link-leveltwo \" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/manage?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Module Manager
                               </a>
                             </li>
 
@@ -700,7 +701,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"48\" id=\"subtab-AdminParentModulesCatalog\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/modules/addons/modules/catalog?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Katalog
+                              <a href=\"/prestashop/admin026bqejd0/index.php/modules/addons/modules/catalog?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Katalog
                               </a>
                             </li>
 
@@ -711,7 +712,7 @@ var show_new_orders = \"1\";
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/themes/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/themes/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
                     <span>
                     Wygląd
@@ -725,7 +726,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"126\" id=\"subtab-AdminThemesParent\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/themes/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Szablony
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/themes/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Szablony
                               </a>
                             </li>
 
@@ -733,7 +734,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"137\" id=\"subtab-AdminPsMboTheme\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/modules/addons/themes/catalog?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Katalog
+                              <a href=\"/prestashop/admin026bqejd0/index.php/modules/addons/themes/catalog?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Katalog
                               </a>
                             </li>
 
@@ -741,7 +742,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/mail_theme/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Szablon maila
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/mail_theme/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Szablon maila
                               </a>
                             </li>
 
@@ -749,7 +750,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/cms-pages/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Strony
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/cms-pages/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Strony
                               </a>
                             </li>
 
@@ -757,7 +758,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/modules/positions/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Pozycje
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/design/modules/positions/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Pozycje
                               </a>
                             </li>
 
@@ -773,7 +774,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"125\" id=\"subtab-AdminLinkWidget\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/modules/link-widget/list?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Link Widget
+                              <a href=\"/prestashop/admin026bqejd0/index.php/modules/link-widget/list?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Link Widget
                               </a>
                             </li>
 
@@ -806,7 +807,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"62\" id=\"subtab-AdminShipping\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/shipping/preferences?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Preferencje
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/shipping/preferences?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Preferencje
                               </a>
                             </li>
 
@@ -817,7 +818,7 @@ var show_new_orders = \"1\";
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/payment/payment_methods?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/payment/payment_methods?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-payment\">payment</i>
                     <span>
                     Płatność
@@ -831,7 +832,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"64\" id=\"subtab-AdminPayment\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/payment/payment_methods?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Płatności
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/payment/payment_methods?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Płatności
                               </a>
                             </li>
 
@@ -839,7 +840,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"65\" id=\"subtab-AdminPaymentPreferences\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/payment/preferences?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Preferencje
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/payment/preferences?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Preferencje
                               </a>
                             </li>
 
@@ -850,7 +851,7 @@ var show_new_orders = \"1\";
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/localization/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/localization/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-language\">language</i>
                     <span>
                     Międzynarodowy
@@ -864,7 +865,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/localization/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Lokalizacja
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/localization/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Lokalizacja
                               </a>
                             </li>
 
@@ -880,7 +881,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/taxes/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Podatki
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/taxes/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Podatki
                               </a>
                             </li>
 
@@ -888,7 +889,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/translations/settings?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Tłumaczenia
+                              <a href=\"/prestashop/admin026bqejd0/index.php/improve/international/translations/settings?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Tłumaczenia
                               </a>
                             </li>
 
@@ -915,7 +916,7 @@ var show_new_orders = \"1\";
                                   
                 
         
-          <li class=\"category-title \" data-submenu=\"80\" id=\"tab-CONFIGURE\">
+          <li class=\"category-title -active\" data-submenu=\"80\" id=\"tab-CONFIGURE\">
               <span class=\"title\">Konfiguruj</span>
           </li>
 
@@ -924,7 +925,7 @@ var show_new_orders = \"1\";
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/preferences/preferences?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/preferences/preferences?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-settings\">settings</i>
                     <span>
                     Preferencje
@@ -938,7 +939,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/preferences/preferences?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Ogólny
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/preferences/preferences?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Ogólny
                               </a>
                             </li>
 
@@ -946,7 +947,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/order-preferences/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Zamówienia
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/order-preferences/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Zamówienia
                               </a>
                             </li>
 
@@ -954,7 +955,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/product-preferences/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Produkty
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/product-preferences/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Produkty
                               </a>
                             </li>
 
@@ -962,7 +963,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/customer-preferences/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Klienci
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/customer-preferences/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Klienci
                               </a>
                             </li>
 
@@ -970,7 +971,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/contacts/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Kontakt
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/contacts/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Kontakt
                               </a>
                             </li>
 
@@ -978,7 +979,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/seo-urls/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Ruch
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/shop/seo-urls/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Ruch
                               </a>
                             </li>
 
@@ -1003,15 +1004,15 @@ var show_new_orders = \"1\";
                                         
                 
                                                 
-                
-                <li class=\"link-levelone has_submenu\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
-                  <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/system-information/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\">
+                                                    
+                <li class=\"link-levelone has_submenu -active open ul-open\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
+                  <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/system-information/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\">
                     <i class=\"material-icons mi-settings_applications\">settings_applications</i>
                     <span>
                     Zaawansowane
                     </span>
                                                 <i class=\"material-icons sub-tabs-arrow\">
-                                                                keyboard_arrow_down
+                                                                keyboard_arrow_up
                                                         </i>
                                         </a>
                                           <ul id=\"collapse-103\" class=\"submenu panel-collapse\">
@@ -1019,7 +1020,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"104\" id=\"subtab-AdminInformation\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/system-information/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Informacja
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/system-information/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Informacja
                               </a>
                             </li>
 
@@ -1027,7 +1028,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/performance/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Wydajność
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/performance/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Wydajność
                               </a>
                             </li>
 
@@ -1035,7 +1036,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/administration/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Administracja
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/administration/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Administracja
                               </a>
                             </li>
 
@@ -1043,15 +1044,15 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"107\" id=\"subtab-AdminEmails\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/emails/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Adres e-mail
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/emails/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Adres e-mail
                               </a>
                             </li>
 
                                                                             
                             
                                                         
-                            <li class=\"link-leveltwo \" data-submenu=\"108\" id=\"subtab-AdminImport\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/import/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Importuj
+                            <li class=\"link-leveltwo -active\" data-submenu=\"108\" id=\"subtab-AdminImport\">
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/import/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Importuj
                               </a>
                             </li>
 
@@ -1059,7 +1060,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/employees/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Zespół
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/employees/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Zespół
                               </a>
                             </li>
 
@@ -1067,7 +1068,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/sql-requests/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Baza danych
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/sql-requests/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Baza danych
                               </a>
                             </li>
 
@@ -1075,7 +1076,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"116\" id=\"subtab-AdminLogs\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/logs/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> Logi
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/logs/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> Logi
                               </a>
                             </li>
 
@@ -1083,7 +1084,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
-                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/webservice-keys/?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" class=\"link\"> API
+                              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/webservice-keys/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" class=\"link\"> API
                               </a>
                             </li>
 
@@ -1103,10 +1104,10 @@ var show_new_orders = \"1\";
     
       <nav aria-label=\"Breadcrumb\">
         <ol class=\"breadcrumb\">
-                      <li class=\"breadcrumb-item\">Module Manager</li>
+                      <li class=\"breadcrumb-item\">Zaawansowane</li>
           
                       <li class=\"breadcrumb-item active\">
-              <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/manage?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" aria-current=\"page\">Moduły</a>
+              <a href=\"/prestashop/admin026bqejd0/index.php/configure/advanced/import/?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\" aria-current=\"page\">Importuj</a>
             </li>
                   </ol>
       </nav>
@@ -1115,32 +1116,20 @@ var show_new_orders = \"1\";
     <div class=\"title-row\">
       
           <h1 class=\"title\">
-            Moduły          </h1>
+            Importuj          </h1>
       
 
       
         <div class=\"toolbar-icons\">
           <div class=\"wrapper\">
             
-                                                          <a
-                  class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-add_module\"
-                  href=\"#\"                  title=\"Załaduj moduł\"                  data-toggle=\"pstooltip\"
-                  data-placement=\"bottom\"                >
-                  <i class=\"material-icons\">cloud_upload</i>                  Załaduj moduł
-                </a>
-                                                                        <a
-                  class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-addons_connect\"
-                  href=\"#\"                  title=\"Połącz z Addons marketplace\"                  data-toggle=\"pstooltip\"
-                  data-placement=\"bottom\"                >
-                  <i class=\"material-icons\">vpn_key</i>                  Połącz z Addons marketplace
-                </a>
-                                      
+                        
             
                               <a class=\"btn btn-outline-secondary btn-help btn-sidebar\" href=\"#\"
                    title=\"Pomoc\"
                    data-toggle=\"sidebar\"
                    data-target=\"#right-sidebar\"
-                   data-url=\"/prestashop/admin026bqejd0/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fpl%252Fdoc%252FAdminModules%253Fversion%253D1.7.6.8%2526country%253Dpl/Pomoc?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\"
+                   data-url=\"/prestashop/admin026bqejd0/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fpl%252Fdoc%252FAdminImport%253Fversion%253D1.7.6.8%2526country%253Dpl/Pomoc?_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA\"
                    id=\"product_form_open_help\"
                 >
                   Pomoc
@@ -1152,34 +1141,6 @@ var show_new_orders = \"1\";
   </div>
 
   
-      <div class=\"page-head-tabs\" id=\"head_tabs\">
-      <ul class=\"nav nav-pills\">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class=\"nav-item\">
-                    <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/manage?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" id=\"subtab-AdminModulesManage\" class=\"nav-link tab active current\" data-submenu=\"45\">
-                      Moduły
-                      <span class=\"notification-container\">
-                        <span class=\"notification-counter\"></span>
-                      </span>
-                    </a>
-                  </li>
-                                                                <li class=\"nav-item\">
-                    <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/alerts?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" id=\"subtab-AdminModulesNotifications\" class=\"nav-link tab \" data-submenu=\"46\">
-                      Powiadomienia
-                      <span class=\"notification-container\">
-                        <span class=\"notification-counter\"></span>
-                      </span>
-                    </a>
-                  </li>
-                                                                <li class=\"nav-item\">
-                    <a href=\"/prestashop/admin026bqejd0/index.php/improve/modules/updates?_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg\" id=\"subtab-AdminModulesUpdates\" class=\"nav-link tab \" data-submenu=\"47\">
-                      Aktualizacje
-                      <span class=\"notification-container\">
-                        <span class=\"notification-counter\"></span>
-                      </span>
-                    </a>
-                  </li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </ul>
-    </div>
     <script>
   if (undefined !== mbo) {
     mbo.initialize({
@@ -1187,9 +1148,9 @@ var show_new_orders = \"1\";
         'Recommended Modules and Services': 'Zalecane moduły i usługi',
         'Close': 'Zamknij',
       },
-      recommendedModulesUrl: '/prestashop/admin026bqejd0/index.php/modules/addons/modules/recommended?tabClassName=AdminModulesManage&_token=RHR0nnp_OaNUnsyeSbFXKuKd0D3jQwQMOlOHsxIGIFg',
+      recommendedModulesUrl: '/prestashop/admin026bqejd0/index.php/modules/addons/modules/recommended?tabClassName=AdminImport&_token=mCm9qMXPVMnN-ozDo5XEEvK8qmGvaa0UHMsBDb3KOKA',
       shouldAttachRecommendedModulesAfterContent: 0,
-      shouldAttachRecommendedModulesButton: 0,
+      shouldAttachRecommendedModulesButton: 1,
       shouldUseLegacyTheme: 0,
     });
   }
@@ -1197,7 +1158,7 @@ var show_new_orders = \"1\";
 
 </div>
       
-      <div class=\"content-div  with-tabs\">
+      <div class=\"content-div  \">
 
         
 
@@ -1208,18 +1169,18 @@ var show_new_orders = \"1\";
 
 
   ";
-        // line 1168
+        // line 1129
         $this->displayBlock('content_header', $context, $blocks);
-        // line 1169
+        // line 1130
         echo "                 ";
         $this->displayBlock('content', $context, $blocks);
-        // line 1170
+        // line 1131
         echo "                 ";
         $this->displayBlock('content_footer', $context, $blocks);
-        // line 1171
+        // line 1132
         echo "                 ";
         $this->displayBlock('sidebar_right', $context, $blocks);
-        // line 1172
+        // line 1133
         echo "
             
           </div>
@@ -1328,7 +1289,7 @@ var show_new_orders = \"1\";
     </div>
   
 ";
-        // line 1279
+        // line 1240
         $this->displayBlock('javascripts', $context, $blocks);
         $this->displayBlock('extra_javascripts', $context, $blocks);
         $this->displayBlock('translate_javascripts', $context, $blocks);
@@ -1336,7 +1297,7 @@ var show_new_orders = \"1\";
 </html>";
     }
 
-    // line 122
+    // line 124
     public function block_stylesheets($context, array $blocks = [])
     {
     }
@@ -1345,27 +1306,27 @@ var show_new_orders = \"1\";
     {
     }
 
-    // line 1168
+    // line 1129
     public function block_content_header($context, array $blocks = [])
     {
     }
 
-    // line 1169
+    // line 1130
     public function block_content($context, array $blocks = [])
     {
     }
 
-    // line 1170
+    // line 1131
     public function block_content_footer($context, array $blocks = [])
     {
     }
 
-    // line 1171
+    // line 1132
     public function block_sidebar_right($context, array $blocks = [])
     {
     }
 
-    // line 1279
+    // line 1240
     public function block_javascripts($context, array $blocks = [])
     {
     }
@@ -1380,12 +1341,12 @@ var show_new_orders = \"1\";
 
     public function getTemplateName()
     {
-        return "__string_template__784dd4eeffc609d1e49ac2bc53866eca71a8eb197af7def2969f9ec1d1d791f3";
+        return "__string_template__969a8d050c1b1823058eade3c162d4c9f02d761f79130691beeefde3af28863a";
     }
 
     public function getDebugInfo()
     {
-        return array (  1369 => 1279,  1364 => 1171,  1359 => 1170,  1354 => 1169,  1349 => 1168,  1340 => 122,  1332 => 1279,  1223 => 1172,  1220 => 1171,  1217 => 1170,  1214 => 1169,  1212 => 1168,  162 => 122,  39 => 1,);
+        return array (  1330 => 1240,  1325 => 1132,  1320 => 1131,  1315 => 1130,  1310 => 1129,  1301 => 124,  1293 => 1240,  1184 => 1133,  1181 => 1132,  1178 => 1131,  1175 => 1130,  1173 => 1129,  164 => 124,  39 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1398,6 +1359,6 @@ var show_new_orders = \"1\";
 
     public function getSourceContext()
     {
-        return new Source("", "__string_template__784dd4eeffc609d1e49ac2bc53866eca71a8eb197af7def2969f9ec1d1d791f3", "");
+        return new Source("", "__string_template__969a8d050c1b1823058eade3c162d4c9f02d761f79130691beeefde3af28863a", "");
     }
 }
