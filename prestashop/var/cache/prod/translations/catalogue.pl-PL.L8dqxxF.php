@@ -120,6 +120,11 @@ $catalogue = new MessageCatalogue('pl-PL', array (
     'Check / Uncheck all' => 'Zaznacz/Odznacz wszystko',
     'Confirm this action' => 'Potwierdź akcję',
   ),
+  'ModulesContactinfoAdmin' => 
+  array (
+    'Allows you to display additional information about your store\'s customer service.' => 'Pozwala wyświetlić dodatkowe informacje dotyczące Biura obsługi klienta w sklepie.',
+    'Contact information' => 'Informacje kontaktowe',
+  ),
   'AdminAdvparametersFeature' => 
   array (
     'Menu' => 'Zakładki',
@@ -5668,11 +5673,6 @@ Dziękujemy za cierpliwość.',
     'Attach File' => 'Załącz plik',
     'Message' => 'Wiadomość',
     'Send' => 'Wyślij',
-  ),
-  'ModulesContactinfoAdmin' => 
-  array (
-    'Contact information' => 'Informacje kontaktowe',
-    'Allows you to display additional information about your store\'s customer service.' => 'Pozwala wyświetlić dodatkowe informacje dotyczące Biura obsługi klienta w sklepie.',
   ),
   'ModulesContactinfoShop' => 
   array (
