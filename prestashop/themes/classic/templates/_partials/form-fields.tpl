@@ -73,6 +73,7 @@
                 <input
                   name="{$field.name}"
                   type="radio"
+                  oninvalid="setCustomValidity('Należy uzupełnić to pole')" oninput="setCustomValidity('')"
                   value="{$value}"
                   {if $field.required}required{/if}
                   {if $value eq $field.value} checked {/if}
@@ -89,7 +90,7 @@
         {block name='form_field_item_checkbox'}
           <span class="custom-checkbox">
             <label>
-              <input name="{$field.name}" type="checkbox" value="1" {if $field.value}checked="checked"{/if} {if $field.required}required{/if}>
+              <input name="{$field.name}" type="checkbox" oninvalid="setCustomValidity('Należy uzupełnić to pole')" oninput="setCustomValidity('')" value="1" {if $field.value}checked="checked"{/if} {if $field.required}required{/if}>
               <span><i class="material-icons rtl-no-flip checkbox-checked">&#xE5CA;</i></span>
               {$field.label nofilter}
             </label>
@@ -99,7 +100,7 @@
       {elseif $field.type === 'date'}
 
         {block name='form_field_item_date'}
-          <input name="{$field.name}" class="form-control" type="date" value="{$field.value}" placeholder="{if isset($field.availableValues.placeholder)}{$field.availableValues.placeholder}{/if}">
+          <input name="{$field.name}" class="form-control" type="date" oninvalid="setCustomValidity('Należy uzupełnić to pole')" oninput="setCustomValidity('')" value="{$field.value}" placeholder="{if isset($field.availableValues.placeholder)}{$field.availableValues.placeholder}{/if}">
           {if isset($field.availableValues.comment)}
             <span class="form-control-comment">
               {$field.availableValues.comment}
@@ -138,6 +139,7 @@
               name="{$field.name}"
               title="{l s='At least 5 characters long' d='Shop.Forms.Help'}"
               type="password"
+              oninvalid="setCustomValidity('Należy uzupełnić to pole')" oninput="setCustomValidity('')"
               value=""
               pattern=".{literal}{{/literal}5,{literal}}{/literal}"
               {if $field.required}required{/if}
@@ -163,6 +165,7 @@
             class="form-control"
             name="{$field.name}"
             type="{$field.type}"
+            oninvalid="setCustomValidity('Należy uzupełnić to pole')" oninput="setCustomValidity('')"
             value="{$field.value}"
             {if isset($field.availableValues.placeholder)}placeholder="{$field.availableValues.placeholder}"{/if}
             {if $field.maxLength}maxlength="{$field.maxLength}"{/if}
