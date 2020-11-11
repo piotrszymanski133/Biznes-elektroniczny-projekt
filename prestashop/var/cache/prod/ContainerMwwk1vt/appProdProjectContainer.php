@@ -1,6 +1,6 @@
 <?php
 
-namespace ContainerE8yvitl;
+namespace ContainerMwwk1vt;
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -3638,7 +3638,7 @@ class appProdProjectContainer extends Container
                 59 => 'ps_facetedsearch',
                 60 => 'ps_cashondelivery',
                 61 => 'pscartbanner',
-                62 => 'ganalytics',
+                62 => 'ps_googleanalytics',
             ],
             'container.autowiring.strict_mode' => true,
             'container.dumper.inline_class_loader' => false,

@@ -1183,7 +1183,7 @@ class AdminContainer extends Container
                 59 => 'ps_facetedsearch',
                 60 => 'ps_cashondelivery',
                 61 => 'pscartbanner',
-                62 => 'ganalytics',
+                62 => 'ps_googleanalytics',
             ],
             'ps_cache_dir' => '/var/www/html/prestashop/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',
