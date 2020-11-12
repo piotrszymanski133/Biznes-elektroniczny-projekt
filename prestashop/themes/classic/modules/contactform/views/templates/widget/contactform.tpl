@@ -62,6 +62,7 @@
               class="form-control"
               name="from"
               type="email"
+		oninvalid="setCustomValidity('Należy podać poprawny adres email')" oninput="setCustomValidity('')"
               value="{$contact.email}"
               placeholder="{l s='your@email.com' d='Shop.Forms.Help'}"
             >
