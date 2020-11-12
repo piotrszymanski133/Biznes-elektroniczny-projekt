@@ -6,5 +6,6 @@
 5. importuj kombinacje (TAK, **NIE**, NIE)
 6. w panelu admina w zakładce moduły wyszukaj "menu główne", konfiguruj moduł. Wyczyść listę po lewej stronie i przerzuć na lewo Plakaty, Ramki, Bestsellery i Nowości. Zapisz.
 7. W "Katalog" -> "Atrybuty & Cechy" wejdź w rozmiar. Tam uporządkuj ręcznie od najmniejszych wartosci (13x18) do najwiekszych(100x150). Na końcu również uporządkowane możesz umieścić wartości pojednycze np 22cm
-8. Teraz powinno śmigać
+8. poprawić wg prestashop/themes/classic/assets/css/theme.css https://github.com/PrestaShop/PrestaShop/issues/10239
+9. Teraz powinno śmigać
 
