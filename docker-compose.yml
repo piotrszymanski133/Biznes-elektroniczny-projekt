@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  prestashop:
+    build: ./prestashop/
+    ports:
+      - "8086:80"
+    networks:
+      internal_nw:
+        ipv4_address: 172.29.0.2
+    
+  db:
+    build: ./db/
+    environment:
+      - MYSQL_ROOT_PASSWORD=matibob333
+    networks:
+      internal_nw:
+        ipv4_address: 172.29.0.3
+        
+networks:
+  internal_nw:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.29.0.0/24
+    
+    
