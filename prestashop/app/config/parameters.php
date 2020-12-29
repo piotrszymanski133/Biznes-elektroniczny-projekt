@@ -1,10 +1,10 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => '127.0.0.1',
-    'database_port' => '',
-    'database_name' => 'prestashop',
-    'database_user' => 'root',
+    'database_host' => '172.29.0.3',
+    'database_port' => '3306',
+    'database_name' => 'db_2',
+    'database_user' => 'user_2',
     'database_password' => 'matibob333',
     'database_prefix' => 'projekt',
     'database_engine' => 'InnoDB',
