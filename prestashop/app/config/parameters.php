@@ -6,7 +6,7 @@
     'database_name' => 'db_2',
     'database_user' => 'user_2',
     'database_password' => 'matibob333',
-    'database_prefix' => 'projekt',
+    'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
     'mailer_host' => '127.0.0.1',
