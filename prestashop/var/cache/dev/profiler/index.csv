@@ -1,0 +1,5 @@
+82e04a,172.29.0.1,GET,https://localhost/prestashop/admin026bqejd0/index.php/improve/modules/manage/action/configure/ps_crossselling?_token=4E2pEAMBa1HTHXHubKi39Urp5SWtQd30UkFVikyF7FA,1609343550,,302
+63834b,172.29.0.1,POST,https://localhost/prestashop/admin026bqejd0/index.php/common/notifications?_token=4E2pEAMBa1HTHXHubKi39Urp5SWtQd30UkFVikyF7FA&rand=1609343552213,1609343552,,200
+a7d543,172.29.0.1,POST,https://localhost/prestashop/admin026bqejd0/index.php/common/notifications?_token=4E2pEAMBa1HTHXHubKi39Urp5SWtQd30UkFVikyF7FA&rand=1609343552223,1609343552,,200
+13a79e,172.29.0.1,POST,https://localhost/prestashop/admin026bqejd0/index.php/common/notifications?_token=4E2pEAMBa1HTHXHubKi39Urp5SWtQd30UkFVikyF7FA&rand=1609343566854,1609343566,,200
+70e17c,172.29.0.1,POST,https://localhost/prestashop/admin026bqejd0/index.php/common/notifications?_token=4E2pEAMBa1HTHXHubKi39Urp5SWtQd30UkFVikyF7FA&rand=1609343566861,1609343566,,200
