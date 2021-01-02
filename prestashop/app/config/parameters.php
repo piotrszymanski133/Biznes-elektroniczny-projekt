@@ -2,7 +2,7 @@
   'parameters' => 
   array (
     'database_host' => 'biznes-db',
-    'database_port' => '31306',
+    'database_port' => '3306',
     'database_name' => 'db_2',
     'database_user' => 'user_2',
     'database_password' => 'matibob333',
