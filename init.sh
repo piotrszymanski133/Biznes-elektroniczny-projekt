@@ -5,7 +5,7 @@ USER="user_2"
 PASSWORD="matibob333"
 DB_ROOT_PASSWORD="dev"
 
-kubectl --namespace="biznes-elektroniczny" cp ~/studenci/2/prestashop.sql biznes-db-7d46b58f4d-rm2v9:/tmp/prestashop.sql
+kubectl --namespace="biznes-elektroniczny" cp ~/studenci/2/BEProjekt/prestashop.sql biznes-db-7d46b58f4d-rm2v9:/tmp/prestashop.sql
 
 kubectl --namespace="biznes-elektroniczny" exec --stdin --tty biznes-db-7d46b58f4d-rm2v9 -- \ 
 mysql -p$DB_ROOT_PASSWORD -e "CREATE DATABASE IF NOT EXISTS ${DB};" && \
