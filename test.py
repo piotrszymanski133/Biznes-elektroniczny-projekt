@@ -8,7 +8,7 @@ import time
 
 # Otwieranie przeglądarki i sklepu
 driver = webdriver.Firefox()
-driver.get("http://localhost:25554/prestashop")
+driver.get("http://localhost:20002/prestashop")
 
 # Przejście do zakładania konta
 driver.find_element_by_xpath("//div[@class='user-info']").click()
@@ -18,7 +18,7 @@ driver.find_element_by_xpath("//div[@class='no-account']").click()
 driver.find_element_by_xpath("//input[@name='id_gender' and @value='1']").click()
 driver.find_element_by_xpath("//input[@name='firstname']").send_keys("Jan")
 driver.find_element_by_xpath("//input[@name='lastname']").send_keys("Kowalski")
-driver.find_element_by_xpath("//input[@name='email']").send_keys("jankowalski413@poczta.pl")
+driver.find_element_by_xpath("//input[@name='email']").send_keys("jankowalski425@poczta.pl")
 driver.find_element_by_xpath("//input[@name='password']").send_keys("123456")
 driver.find_element_by_xpath("//input[@name='birthday']").send_keys("1970-01-01")
 driver.find_element_by_xpath("//input[@name='psgdpr']").click()
@@ -61,7 +61,7 @@ for i in range(2):
             driver.find_element_by_xpath(
                 "//button [@class='btn btn-touchspin js-touchspin bootstrap-touchspin-up']").click()
 
-        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='add']")))
+        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div[class='add']")))
         add_button = driver.find_element_by_css_selector("div[class='add']").click()
         while (True):
             try:
