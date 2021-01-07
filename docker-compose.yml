@@ -7,11 +7,6 @@ services:
     ports:
       - "80:80"
       - "443:443"
-    environment:
-      - PS_DEV_MODE=1
-      - DB_USER=user_2
-      - DB_PASSWD=matibob333
-      - DB_NAME=db_2
     networks:
       internal_nw:
         ipv4_address: 172.29.0.2
