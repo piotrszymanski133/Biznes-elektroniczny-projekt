@@ -4,4 +4,6 @@ Celem projektu było przygotowanie sklepu internetowego w opraciu o technologię
 
 Projekt wykonany na przedmiot Biznes elektroniczny.
 
+## Dodatkowe informacje
 
+Sklep został stworzony bazując na sklepie internetowym https://desenio.pl/
